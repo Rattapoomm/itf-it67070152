@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+h1 {
+    background-color: brown;
+    font-size: 85px;
+    color: aliceblue;
+    border: none;
+    height: 100;
+    width: 10000;
+    margin: 0px;
+}
+
+p {
+    font-size: 25px;
+}
+button {
+    background-color:   orangered;
+    color:whitesmoke;
+    border: none;
+    height: 40px;
+    width: 200px;
+    border-radius: 100px;
+    margin: 5px;
+    text-align: center;
+}
+
+.right{
+    display: flex;
+    column-gap: 0px;
+}
+
+.Variable{
+    background-color: brown;
+    font-size: 52px;
+    color: aliceblue;
+    border: none;
+    height: 100;
+    width: 1300;
+    margin: 0px;
+    text-align: center;
+}
+
+.title {
+    font-size: 35px;
+    display: flex;
+}
+
+.body{
+    background-image: url(rickroll_4k.jpg);
+}
+
+head {
+    font-size: 40px;
+}
+
+footer {
+    display: block;
+    margin-top: 17%;
+    background-color: tomato;
+    height: 50px;
+}
