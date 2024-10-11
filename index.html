@@ -1,22 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Book</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-    <head>Is me Rick</head>
-    <nav class="right">
-        <h1>Salmon guitar</h1>
-        <nav class="Variable">Register</nav>
-        <nav class="Variable">log in</nav>
-    </nav>
-    <div class="container">
-        <img class="rick" src="rickroll_4k.jpg" alt="Rick roll" width="500" height="333">
-        <p class="title">This is guitar tuner</p> 
-        <p class="title">Click below to tune</p>
-        <button><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Click me to tune</a></button>
-        <link rel="stylesheet" href="style.css">
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">If you bored</a>
+    <h1>
+        <span class="username" id="username">Rattapoom Rungthong 67070152's</span> Phone Book
+    </h1>
+    <div class="avatar" id="avatar">
+        <div class="notification">99+</div>
     </div>
-    <footer>@Copy right Ratthaooooom</footer>
     
+    <div>
+        <input type="text" id="usernameInput" placeholder="Type any you want">
+        <button onclick="setUsername()">SET</button>
     </div>
+    <div>
+        <input type="text" id="avatarInput" placeholder="You bored Rick??">
+        <button onclick="setAvatar()">SET</button>
+    </div>
+    
+    <div>
+        <input type="text" id="nameInput" placeholder="Name">
+        <input type="tel" id="phoneInput" placeholder="Phone Number">
+        <button onclick="addContact()">ADD</button>
+        <button onclick="exportContacts()">EXPORT</button>
+    </div>
+    
+    <table class="textintable" id="contactTable">
+        <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Phone Number</th>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
